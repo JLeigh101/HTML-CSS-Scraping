@@ -2,10 +2,11 @@
 NU Bootcamp Module 11
 
 **File Contents**
-*part_1_mars_news.ipynb - this file contains the code used to generate mars.json by scraping the html/css tags on the mars news website
-*part_2_mars_waether.ipynb - this file contains the code used to generate mars_data.csv (by scraping html/css on the mars weather site), as well as the supplemental data analysis on mars wearther. 
-*mars.json - output file from part 1
-*mars_data.csv - output file from part 2
+1. part_1_mars_news.ipynb - this file contains the code used to generate mars.json by scraping the html/css tags on the mars news website
+2. part_2_mars_waether.ipynb - this file contains the code used to generate mars_data.csv (by scraping html/css on the mars weather site), as well as the supplemental data analysis on mars wearther. 
+3. mars.json - output file from part 1
+4. mars_data.csv - output file from part 2
+5. chromedriver.exe - tool used to manipulate Google Chrome through VS-Code
 
 **Background**
 You’re now ready to take on a full web-scraping and data analysis project. You’ve learned to identify HTML elements on a page, identify their id and class attributes, and use this knowledge to extract information via both automated browsing with Splinter and HTML parsing with Beautiful Soup. You’ve also learned to scrape various types of information. These include HTML tables and recurring elements, like multiple news articles on a webpage.
@@ -37,13 +38,13 @@ Deliverable 2: Scrape and analyze Mars weather data, which exists in a table.
 -Use automated browsing to visit the Mars Temperature Data SiteLinks to an external site.. Inspect the page to identify which elements to scrape. Note that the URL is https://static.bc-edx.com/data/web/mars_facts/temperature.html.
 -Assemble the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
 ***
--id: the identification number of a single transmission from the Curiosity rover 
+1. id: the identification number of a single transmission from the Curiosity rover 
 terrestrial_date: the date on Earth
--sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars 
--ls: the solar longitude 
--month: the Martian month 
--min_temp: the minimum tempereture, in Celsius, of a single Martian day (sol) 
--pressure: The atmospheric pressure at Curiosity's location 
+2. sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars 
+3. ls: the solar longitude 
+4. month: the Martian month 
+5. min_temp: the minimum tempereture, in Celsius, of a single Martian day (sol) 
+6. pressure: The atmospheric pressure at Curiosity's location 
 ***
 -Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types. 
 -Analyze your dataset by using Pandas functions to answer the following questions: 
