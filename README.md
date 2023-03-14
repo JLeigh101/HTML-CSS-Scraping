@@ -2,8 +2,8 @@
 NU Bootcamp Module 11
 
 **File Contents**
-1. part_1_mars_news.ipynb - this file contains the code used to generate mars.json by scraping the html/css tags on the mars news website
-2. part_2_mars_waether.ipynb - this file contains the code used to generate mars_data.csv (by scraping html/css on the mars weather site), as well as the supplemental data analysis on mars wearther. 
+1. part_1_mars_news.ipynb - this file contains the code used to generate mars.json by scraping the html/css tags on the mars news website and turning the scraped data into a list of python dictionaries
+2. part_2_mars_waether.ipynb - this file contains the code used to generate mars_data.csv (by scraping html/css on the mars weather site), as well as the supplemental data analysis on mars weather. 
 3. mars.json - output file from part 1
 4. mars_data.csv - output file from part 2
 5. chromedriver.exe - tool used to manipulate Google Chrome through VS-Code
